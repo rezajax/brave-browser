@@ -1,5 +1,21 @@
 # rezaEdition
 
+how to change: 
+git remote set-url origin https://github.com/rezajax/chromium
+
+
+git repo main 
+`/brave-browser`
+origin https://github.com/brave/brave-browser.git
+origin https://github.com/rezajax/brave-browser
+
+git repo src
+`/brave-browser/src`
+origin  https://github.com/brave/chromium
+origin https://github.com/rezajax/chromium
+
+
+
 ![Brave Browser](./docs/source/_static/Brave.svg)
 
 ## Overview
