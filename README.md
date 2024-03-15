@@ -17,6 +17,16 @@ origin  https://github.com/brave/chromium
 origin https://github.com/rezajax/chromium
 
 ## git repo
+`~/brave-browser/src/third_party/clang-format/script‍`
+
+https://llvm.org/
+
+https://github.com/llvm/llvm-project
+
+origin  https://chromium.googlesource.com/external/github.com/llvm/llvm-project/clang/tools/clang-format.git 
+
+## If you found a bug, please file it at 
+`https://crbug.com/new.`
 
 
 
