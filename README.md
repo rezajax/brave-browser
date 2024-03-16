@@ -87,13 +87,14 @@ This shell script only works on Debian and Ubuntu but check system requirements 
 ./src/build/install-build-deps.sh # for Linux
 ```
 
-this not working for me!
+This code does not work for me!
 
 Use `./src/build/install-build-deps.sh --android` for Android builds.
 
-
+## export apk !
+```
 npm run build -- Debug --target_os=android --target_arch=arm --target_android_output_format=apk
-
+```
 
 ---
 
