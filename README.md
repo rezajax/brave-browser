@@ -5,26 +5,37 @@ git remote set-url origin https://github.com/rezajax/chromium
 
 ## git repo main 
 `/brave-browser`
+```
 origin https://github.com/brave/brave-browser.git
 
 origin https://github.com/rezajax/brave-browser
+```
 
+## git install python script 
+`src/brave`
+```
+"url": "https://github.com/brave/brave-core.git"
+
+"url": "https://github.com/rezajax/brave-core.git"
+
+```
 
 ## git repo src
 `/brave-browser/src`
+```
 origin  https://github.com/brave/chromium
 
 origin https://github.com/rezajax/chromium
-
+```
 ## git repo
 `~/brave-browser/src/third_party/clang-format/script‍`
-
+```
 https://llvm.org/
 
 https://github.com/llvm/llvm-project
 
 origin  https://chromium.googlesource.com/external/github.com/llvm/llvm-project/clang/tools/clang-format.git 
-
+```
 ## If you found a bug, please file it at 
 `https://crbug.com/new.`
 
