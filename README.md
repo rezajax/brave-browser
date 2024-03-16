@@ -89,9 +89,8 @@ This shell script only works on Debian and Ubuntu but check system requirements 
 
 this not working for me!
 
-```
-Use ./src/build/install-build-deps.sh --android for Android builds.
-```
+Use `./src/build/install-build-deps.sh --android` for Android builds.
+
 
 npm run build -- Debug --target_os=android --target_arch=arm --target_android_output_format=apk
 
