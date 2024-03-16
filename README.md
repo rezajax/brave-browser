@@ -49,25 +49,30 @@ apt-get install build-essential python-setuptools python3-distutils
 ```
 
 ## rez requirements
+```
 apt install git curl wget
+```
 
-
-## install nvm for npm 
+## install npm (with nvm)
+```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 nvm install --lts
+```
 
-
-
-
-git clone https://github.com/brave/brave-browser.git
-
+# cloning
+```
+git clone https://github.com/rezajax/brave-browser.git
+cd brave-browser
 npm install
+```
 
-**the Chromium source is downloaded, which has a large history (gigabytes of data)**\
-**this might take really long to finish depending on internet speed**\
+## fetch brave-core and brave-core fetch chromium
+```
+the Chromium source is downloaded, which has a large history (gigabytes of data)
+this might take really long to finish depending on internet speed
 
 npm run init
-
+```
 
 npm run init -- --target_os=android --target_arch=arm
 
