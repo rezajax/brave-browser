@@ -44,7 +44,7 @@ origin  https://chromium.googlesource.com/external/github.com/llvm/llvm-project/
 # brave init
 
 ## brave requirements 
-apt-get install build-essential python-setuptools python3-distutils 
+```apt-get install build-essential python-setuptools python3-distutils ```
 
 ## rez requirements
 apt install git curl wget
