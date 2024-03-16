@@ -74,16 +74,24 @@ this might take really long to finish depending on internet speed
 npm run init
 ```
 
+## set to conf file target android
+```
 npm run init -- --target_os=android --target_arch=arm
+```
 
+## i think install sdk android and gradle
+This shell script only works on Debian and Ubuntu but check system requirements for other distros:
 
-This shell script only works on Debian and Ubuntu but check system requirements for other distros:\
-**cd to brave-browser repo root**\
+```
+# cd to brave-browser repo root
 ./src/build/install-build-deps.sh # for Linux
+```
 
-### this not working for me!
+this not working for me!
+
+```
 Use ./src/build/install-build-deps.sh --android for Android builds.
-
+```
 
 npm run build -- Debug --target_os=android --target_arch=arm --target_android_output_format=apk
 
