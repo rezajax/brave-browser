@@ -100,6 +100,31 @@ npm run build -- Debug --target_os=android --target_arch=arm --target_android_ou
 
 ---
 
+# Changes
+
+`// @rezavahagnali`
+
+## non rooted by defult enabled
+```
+/home/reza/brave-browser/src/chrome/browser/flags/android/chrome_feature_list.cc
+```
+
+changes: 
+
+```
+BASE_FEATURE(kCommandLineOnNonRooted,
+             "CommandLineOnNonRooted",
+             base::FEATURE_DISABLED_BY_DEFAULT);
+
+// to
+
+             BASE_FEATURE(kCommandLineOnNonRooted,
+             "CommandLineOnNonRooted",
+             base::FEATURE_ENABLED_BY_DEFAULT);
+```
+
+---
+
 
 
 ![Brave Browser](./docs/source/_static/Brave.svg)
